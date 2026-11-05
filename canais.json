@@ -199,5 +199,31 @@
   ],
   "formato_fixo": true,
   "canal_id": "UC3tSwTBq2TX8a-pCgUhGSIw"
+ },
+ "yoimachi": {
+  "nome": "Yoimachi",
+  "idioma": "en",
+  "estilo": "Japanese city-pop / Tokyo night lofi playlists (original songs). Calm, nostalgic night-city tone, a light question (which song feels like your Tokyo night, where are you listening from), soft subscribe invite.",
+  "exemplos": {
+   "aberturas": [
+    "🌃 Which song feels like your Tokyo night?",
+    "☕ Soft groove for a slow morning.",
+    "💿 Every song here is original and made only for Yoimachi.",
+    "🎧 Thanks for spending the evening with us.",
+    "🗼 Dusk, rain and a gentle bassline.",
+    "🤍 Made for quiet nights and slow afternoons."
+   ],
+   "convites": [
+    "If the vibe hits, drop a like and subscribe for a new playlist every week 🔔",
+    "Subscribe and turn on notifications so you never miss a new Yoimachi playlist 🔔"
+   ],
+   "perguntas": [
+    "Where are you listening from? 🌍",
+    "Drop your favorite track below 👇",
+    "Work, study or just relaxing? Tell us 👇",
+    "What time is it where you are right now? 🕑"
+   ]
+  },
+  "canal_id": "UCA6p8Wj-MYABnnw6O2WMlOQ"
  }
 }
