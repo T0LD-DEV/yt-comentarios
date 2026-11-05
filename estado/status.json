@@ -3,56 +3,54 @@
   "nome": "Void Knight Echoes",
   "proximo": "2026-11-06T09:00:00+00:00",
   "ultimo_agendado": "2026-11-13T00:00:00+00:00",
-  "agendados": 15,
-  "verificado": "2026-11-05T22:21:36.071787+00:00"
+  "agendados": 15
  },
  "t0ld_beats": {
   "nome": "T0LD Beats",
   "proximo": "2026-11-05T23:00:00+00:00",
   "ultimo_agendado": "2026-11-18T01:00:00+00:00",
-  "agendados": 44,
-  "verificado": "2026-11-05T22:21:37.055283+00:00"
+  "agendados": 44
  },
  "honey_strings": {
   "nome": "Honey Strings Acoustic",
   "proximo": "2026-11-06T11:00:00+00:00",
   "ultimo_agendado": "2026-11-07T11:00:00+00:00",
-  "agendados": 2,
-  "verificado": "2026-11-05T22:21:37.513347+00:00"
+  "agendados": 2
  },
  "psico_rabisco": {
   "nome": "Psico Rabisco",
   "proximo": "2026-11-06T00:00:00+00:00",
   "ultimo_agendado": "2026-11-09T00:00:00+00:00",
-  "agendados": 13,
-  "verificado": "2026-11-05T22:21:38.651560+00:00"
+  "agendados": 13
  },
  "psychology_scribbles": {
   "nome": "Psychology Scribbles",
   "proximo": "2026-11-06T00:00:00+00:00",
   "ultimo_agendado": "2026-11-11T15:00:00+00:00",
-  "agendados": 18,
-  "verificado": "2026-11-05T22:21:39.265600+00:00"
+  "agendados": 18
  },
  "na_pele": {
   "nome": "Na Pele de Quem Faz",
   "proximo": "2026-11-06T18:00:00+00:00",
   "ultimo_agendado": "2026-11-06T21:00:00+00:00",
-  "agendados": 2,
-  "verificado": "2026-11-05T22:21:39.739880+00:00"
+  "agendados": 2
  },
  "t0ld_studio": {
   "nome": "T0LD Studio Tools",
   "proximo": "2026-11-06T11:00:00+00:00",
   "ultimo_agendado": "2026-11-06T11:00:00+00:00",
-  "agendados": 1,
-  "verificado": "2026-11-05T22:21:40.281345+00:00"
+  "agendados": 1
  },
  "achadinhos": {
   "nome": "Achadinhos Told",
   "proximo": "2026-11-06T00:00:00+00:00",
   "ultimo_agendado": "2026-11-06T00:00:00+00:00",
-  "agendados": 1,
-  "verificado": "2026-11-05T22:21:40.804652+00:00"
+  "agendados": 1
+ },
+ "yoimachi": {
+  "nome": "Yoimachi",
+  "proximo": "2026-11-05T23:00:00+00:00",
+  "ultimo_agendado": "2026-11-05T23:00:00+00:00",
+  "agendados": 1
  }
 }
