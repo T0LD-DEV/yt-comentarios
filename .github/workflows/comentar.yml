@@ -1,0 +1,34 @@
+name: comentar
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+concurrency:
+  group: comentar
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  comentar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - name: Comentar videos que estao saindo
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          YT_TOKENS: ${{ secrets.YT_TOKENS }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PYTHONIOENCODING: utf-8
+        run: python comentar_nuvem.py
+      - name: Salvar estado
+        if: always()
+        run: |
+          git config user.name "t0ld-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add estado
+          if ! git diff --cached --quiet; then
+            git commit -qm "estado $(date -u +%Y-%m-%dT%H:%MZ)"
+            for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+          fi
