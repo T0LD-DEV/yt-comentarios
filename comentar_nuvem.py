@@ -83,6 +83,25 @@ def avisar(texto, chave=None, a_cada_h=0):
         f.write(json.dumps({"id": f"{time.time():.3f}", "ts": agora().isoformat(), "texto": texto}, ensure_ascii=False) + "\n")
 
 
+def publicar_estado():
+    """No Actions: commit+push do estado/ logo após cada comentário, para o aviso chegar no WhatsApp sem esperar o fim da rodada."""
+    if DRY or not os.environ.get("GITHUB_ACTIONS"):
+        return
+    import subprocess
+    sh = lambda *a: subprocess.run(list(a), cwd=RAIZ, capture_output=True, text=True)
+    sh("git", "config", "user.name", "t0ld-bot")
+    sh("git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com")
+    sh("git", "add", "estado")
+    if sh("git", "diff", "--cached", "--quiet").returncode == 0:
+        return
+    sh("git", "commit", "-qm", f"estado {agora():%Y-%m-%dT%H:%MZ}")
+    for _ in range(3):
+        if sh("git", "pull", "-q", "--rebase").returncode == 0 and sh("git", "push", "-q").returncode == 0:
+            return
+        time.sleep(3)
+    log("aviso: push do estado falhou (vai no fim da rodada)")
+
+
 # ------------------------------------------------------------------ YouTube
 class YT:
     def __init__(self, canal, refresh):
@@ -310,6 +329,7 @@ def main():
     agenda.sort(key=lambda x: x[0])
     log(f"{len(agenda)} vídeo(s) para comentar nesta execução:", [(brt(q), s, v['id']) for q, s, v in agenda])
     jsave(EST / "status.json", status)
+    publicar_estado()
     for quando, slug, v in agenda:
         c, yt, vid = CANAIS[slug], yts[slug], v["id"]
         alvo = quando + dt.timedelta(seconds=60)
