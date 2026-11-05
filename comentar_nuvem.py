@@ -27,7 +27,7 @@ RAIZ = Path(__file__).parent
 EST = RAIZ / "estado"
 CANAIS = json.loads((RAIZ / "canais.json").read_text(encoding="utf-8"))
 DRY = "--dry" in sys.argv
-JANELA_MIN = int(os.environ.get("JANELA_MIN", "28"))      # olha vídeos que saem até daqui a N min
+JANELA_MIN = int(os.environ.get("JANELA_MIN", "40"))      # olha vídeos que saem até daqui a N min
 ATRASO_MAX_H = 48                                          # comenta atrasado até 48 h depois
 INICIO = os.environ.get("INICIO_UTC", "2026-11-05T22:00:00+00:00")   # não mexe em vídeos publicados antes disso
 ESTOQUE_MIN_H = 24
