@@ -367,6 +367,7 @@ def main():
             est_txt = f" · estoque até {brt(fut[-1])} ({len(fut)} agendados)" if fut else ""
             titulo = v["snippet"].get("title", "")[:70]
             avisar(f"💬 {c['nome']}: comentei em \"{titulo}\" https://youtu.be/{vid}\n{prox_txt}{est_txt}")
+            publicar_estado()
     # limpa registro antigo (> 30 dias)
     corte = agora() - dt.timedelta(days=30)
     feitos = {k: x for k, x in feitos.items() if iso(x["quando"]) > corte}
