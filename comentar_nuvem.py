@@ -300,7 +300,7 @@ def main():
         futs[slug] = futuros
         status[slug] = {"nome": c["nome"], "proximo": futuros[0].isoformat() if futuros else None,
                         "ultimo_agendado": futuros[-1].isoformat() if futuros else None,
-                        "agendados": len(futuros), "verificado": agora().isoformat()}
+                        "agendados": len(futuros)}
         estoque_h = (futuros[-1] - agora()).total_seconds() / 3600 if futuros else 0
         if estoque_h < ESTOQUE_MIN_H:
             fim = f"o último agendado sai {brt(futuros[-1])}" if futuros else "não há NENHUM vídeo agendado"
