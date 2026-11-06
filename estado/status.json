@@ -7,9 +7,9 @@
  },
  "t0ld_beats": {
   "nome": "T0LD Beats",
-  "proximo": "2026-11-06T15:00:00+00:00",
+  "proximo": "2026-11-06T16:00:00+00:00",
   "ultimo_agendado": "2026-11-18T01:00:00+00:00",
-  "agendados": 41
+  "agendados": 39
  },
  "honey_strings": {
   "nome": "Honey Strings Acoustic",
@@ -19,15 +19,15 @@
  },
  "psico_rabisco": {
   "nome": "Psico Rabisco",
-  "proximo": "2026-11-06T15:00:00+00:00",
+  "proximo": "2026-11-06T21:00:00+00:00",
   "ultimo_agendado": "2026-11-10T00:00:00+00:00",
-  "agendados": 15
+  "agendados": 13
  },
  "psychology_scribbles": {
   "nome": "Psychology Scribbles",
-  "proximo": "2026-11-06T15:00:00+00:00",
+  "proximo": "2026-11-06T21:00:00+00:00",
   "ultimo_agendado": "2026-11-13T15:00:00+00:00",
-  "agendados": 23
+  "agendados": 21
  },
  "na_pele": {
   "nome": "Na Pele de Quem Faz",
@@ -43,9 +43,9 @@
  },
  "achadinhos": {
   "nome": "Achadinhos Told",
-  "proximo": "2026-11-06T15:00:00+00:00",
+  "proximo": "2026-11-06T21:00:00+00:00",
   "ultimo_agendado": "2026-11-07T00:00:00+00:00",
-  "agendados": 3
+  "agendados": 2
  },
  "yoimachi": {
   "nome": "Yoimachi",
