@@ -26,8 +26,8 @@
  "psychology_scribbles": {
   "nome": "Psychology Scribbles",
   "proximo": "2026-11-06T11:00:00+00:00",
-  "ultimo_agendado": "2026-11-11T15:00:00+00:00",
-  "agendados": 17
+  "ultimo_agendado": "2026-11-12T15:00:00+00:00",
+  "agendados": 18
  },
  "na_pele": {
   "nome": "Na Pele de Quem Faz",
@@ -43,9 +43,9 @@
  },
  "achadinhos": {
   "nome": "Achadinhos Told",
-  "proximo": null,
-  "ultimo_agendado": null,
-  "agendados": 0
+  "proximo": "2026-11-06T12:00:00+00:00",
+  "ultimo_agendado": "2026-11-07T00:00:00+00:00",
+  "agendados": 4
  },
  "yoimachi": {
   "nome": "Yoimachi",
