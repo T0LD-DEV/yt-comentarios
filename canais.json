@@ -225,5 +225,31 @@
    ]
   },
   "canal_id": "UCA6p8Wj-MYABnnw6O2WMlOQ"
+ },
+ "lunelle": {
+  "nome": "LUNELLE",
+  "idioma": "en",
+  "estilo": "Vintage 1940s-50s jazz / cozy cafe jazz playlists with an original female vocalist (songs in English). Warm, nostalgic, candle-lit café tone; a light question (where are you listening from, what are you sipping, favorite track) and a soft subscribe invite. Elegant, never hypey.",
+  "exemplos": {
+   "aberturas": [
+    "☕ Pour something warm and stay a while.",
+    "🕯️ Old records, soft rain and a quiet café corner.",
+    "🎷 Every song here is original and made only for LUNELLE.",
+    "🤎 Thank you for spending this evening with us.",
+    "❄️ A little vintage jazz for a slow winter night.",
+    "🌙 Made for late evenings and gentle mornings."
+   ],
+   "convites": [
+    "If this felt cozy, leave a like and subscribe for a new playlist every day 🤎",
+    "Subscribe for more cozy jazz and turn on notifications so you never miss the next one 🔔"
+   ],
+   "perguntas": [
+    "Where are you listening from? 🌍",
+    "What are you sipping right now? ☕",
+    "Drop your favorite track below 👇",
+    "Reading, working or just unwinding tonight? 👇"
+   ]
+  },
+  "canal_id": "UClRevbyiQFYoiQPn7RLnIFQ"
  }
 }
