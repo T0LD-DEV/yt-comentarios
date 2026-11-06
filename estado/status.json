@@ -38,8 +38,8 @@
  "t0ld_studio": {
   "nome": "T0LD Studio Tools",
   "proximo": "2026-11-06T19:00:00+00:00",
-  "ultimo_agendado": "2026-11-06T19:00:00+00:00",
-  "agendados": 1
+  "ultimo_agendado": "2026-11-07T11:00:00+00:00",
+  "agendados": 2
  },
  "achadinhos": {
   "nome": "Achadinhos Told",
@@ -49,9 +49,9 @@
  },
  "yoimachi": {
   "nome": "Yoimachi",
-  "proximo": null,
-  "ultimo_agendado": null,
-  "agendados": 0
+  "proximo": "2026-11-06T23:00:00+00:00",
+  "ultimo_agendado": "2026-11-06T23:00:00+00:00",
+  "agendados": 1
  },
  "lunelle": {
   "nome": "LUNELLE",
