@@ -7,9 +7,9 @@
  },
  "t0ld_beats": {
   "nome": "T0LD Beats",
-  "proximo": "2026-11-06T23:00:00+00:00",
+  "proximo": "2026-11-06T23:30:00+00:00",
   "ultimo_agendado": "2026-11-20T01:00:00+00:00",
-  "agendados": 47
+  "agendados": 45
  },
  "honey_strings": {
   "nome": "Honey Strings Acoustic",
@@ -38,8 +38,8 @@
  "t0ld_studio": {
   "nome": "T0LD Studio Tools",
   "proximo": "2026-11-07T11:00:00+00:00",
-  "ultimo_agendado": "2026-11-10T19:00:00+00:00",
-  "agendados": 8
+  "ultimo_agendado": "2026-11-16T11:00:00+00:00",
+  "agendados": 13
  },
  "achadinhos": {
   "nome": "Achadinhos Told",
@@ -49,9 +49,9 @@
  },
  "yoimachi": {
   "nome": "Yoimachi",
-  "proximo": "2026-11-06T23:00:00+00:00",
-  "ultimo_agendado": "2026-11-06T23:00:00+00:00",
-  "agendados": 1
+  "proximo": null,
+  "ultimo_agendado": null,
+  "agendados": 0
  },
  "lunelle": {
   "nome": "LUNELLE",
