@@ -1,15 +1,15 @@
 {
  "void_knight": {
   "nome": "Void Knight Echoes",
-  "proximo": "2026-11-06T21:00:00+00:00",
+  "proximo": "2026-11-07T09:00:00+00:00",
   "ultimo_agendado": "2026-11-13T00:00:00+00:00",
-  "agendados": 14
+  "agendados": 13
  },
  "t0ld_beats": {
   "nome": "T0LD Beats",
   "proximo": "2026-11-06T23:00:00+00:00",
-  "ultimo_agendado": "2026-11-18T21:00:00+00:00",
-  "agendados": 41
+  "ultimo_agendado": "2026-11-20T01:00:00+00:00",
+  "agendados": 47
  },
  "honey_strings": {
   "nome": "Honey Strings Acoustic",
@@ -31,9 +31,9 @@
  },
  "na_pele": {
   "nome": "Na Pele de Quem Faz",
-  "proximo": "2026-11-06T18:00:00+00:00",
+  "proximo": "2026-11-06T21:00:00+00:00",
   "ultimo_agendado": "2026-11-07T21:00:00+00:00",
-  "agendados": 4
+  "agendados": 3
  },
  "t0ld_studio": {
   "nome": "T0LD Studio Tools",
