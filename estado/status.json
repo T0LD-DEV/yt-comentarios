@@ -1,9 +1,9 @@
 {
  "void_knight": {
   "nome": "Void Knight Echoes",
-  "proximo": "2026-11-07T09:00:00+00:00",
+  "proximo": "2026-11-07T21:00:00+00:00",
   "ultimo_agendado": "2026-11-13T00:00:00+00:00",
-  "agendados": 13
+  "agendados": 12
  },
  "t0ld_beats": {
   "nome": "T0LD Beats",
@@ -19,21 +19,21 @@
  },
  "psico_rabisco": {
   "nome": "Psico Rabisco",
-  "proximo": "2026-11-06T21:00:00+00:00",
+  "proximo": "2026-11-07T00:00:00+00:00",
   "ultimo_agendado": "2026-11-10T00:00:00+00:00",
-  "agendados": 13
+  "agendados": 12
  },
  "psychology_scribbles": {
   "nome": "Psychology Scribbles",
-  "proximo": "2026-11-06T21:00:00+00:00",
+  "proximo": "2026-11-07T00:00:00+00:00",
   "ultimo_agendado": "2026-11-13T15:00:00+00:00",
-  "agendados": 21
+  "agendados": 20
  },
  "na_pele": {
   "nome": "Na Pele de Quem Faz",
-  "proximo": "2026-11-06T21:00:00+00:00",
+  "proximo": "2026-11-07T18:00:00+00:00",
   "ultimo_agendado": "2026-11-07T21:00:00+00:00",
-  "agendados": 3
+  "agendados": 2
  },
  "t0ld_studio": {
   "nome": "T0LD Studio Tools",
@@ -43,9 +43,9 @@
  },
  "achadinhos": {
   "nome": "Achadinhos Told",
-  "proximo": "2026-11-06T21:00:00+00:00",
+  "proximo": "2026-11-07T00:00:00+00:00",
   "ultimo_agendado": "2026-11-07T00:00:00+00:00",
-  "agendados": 2
+  "agendados": 1
  },
  "yoimachi": {
   "nome": "Yoimachi",
