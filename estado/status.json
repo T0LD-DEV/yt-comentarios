@@ -14,14 +14,14 @@
  "honey_strings": {
   "nome": "Honey Strings Acoustic",
   "proximo": "2026-11-07T11:00:00+00:00",
-  "ultimo_agendado": "2026-11-07T11:00:00+00:00",
-  "agendados": 1
+  "ultimo_agendado": "2026-11-08T11:00:00+00:00",
+  "agendados": 2
  },
  "psico_rabisco": {
   "nome": "Psico Rabisco",
   "proximo": "2026-11-07T11:00:00+00:00",
   "ultimo_agendado": "2026-11-10T00:00:00+00:00",
-  "agendados": 12
+  "agendados": 13
  },
  "psychology_scribbles": {
   "nome": "Psychology Scribbles",
