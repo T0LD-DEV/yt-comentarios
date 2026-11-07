@@ -1,7 +1,7 @@
 {
  "void_knight": {
   "nome": "Void Knight Echoes",
-  "proximo": "2026-11-08T12:00:00+00:00",
+  "proximo": "2026-11-08T09:00:00+00:00",
   "ultimo_agendado": "2026-11-13T00:00:00+00:00",
   "agendados": 11
  },
@@ -31,9 +31,9 @@
  },
  "na_pele": {
   "nome": "Na Pele de Quem Faz",
-  "proximo": "2026-11-07T18:00:00+00:00",
+  "proximo": "2026-11-07T13:00:00+00:00",
   "ultimo_agendado": "2026-11-07T21:00:00+00:00",
-  "agendados": 2
+  "agendados": 3
  },
  "t0ld_studio": {
   "nome": "T0LD Studio Tools",
@@ -56,7 +56,7 @@
  "lunelle": {
   "nome": "LUNELLE",
   "proximo": "2026-11-07T10:00:00+00:00",
-  "ultimo_agendado": "2026-11-07T10:00:00+00:00",
-  "agendados": 1
+  "ultimo_agendado": "2026-11-08T10:00:00+00:00",
+  "agendados": 2
  }
 }
