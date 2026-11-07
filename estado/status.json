@@ -49,9 +49,9 @@
  },
  "yoimachi": {
   "nome": "Yoimachi",
-  "proximo": null,
-  "ultimo_agendado": null,
-  "agendados": 0
+  "proximo": "2026-11-07T23:00:00+00:00",
+  "ultimo_agendado": "2026-11-08T23:00:00+00:00",
+  "agendados": 2
  },
  "lunelle": {
   "nome": "LUNELLE",
