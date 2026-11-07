@@ -21,7 +21,7 @@
   "nome": "Psico Rabisco",
   "proximo": "2026-11-07T11:00:00+00:00",
   "ultimo_agendado": "2026-11-10T00:00:00+00:00",
-  "agendados": 11
+  "agendados": 12
  },
  "psychology_scribbles": {
   "nome": "Psychology Scribbles",
@@ -43,9 +43,9 @@
  },
  "achadinhos": {
   "nome": "Achadinhos Told",
-  "proximo": null,
-  "ultimo_agendado": null,
-  "agendados": 0
+  "proximo": "2026-11-07T12:00:00+00:00",
+  "ultimo_agendado": "2026-11-08T00:00:00+00:00",
+  "agendados": 3
  },
  "yoimachi": {
   "nome": "Yoimachi",
