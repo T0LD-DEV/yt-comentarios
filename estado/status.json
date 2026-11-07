@@ -20,14 +20,14 @@
  "psico_rabisco": {
   "nome": "Psico Rabisco",
   "proximo": "2026-11-07T11:00:00+00:00",
-  "ultimo_agendado": "2026-11-10T15:00:00+00:00",
-  "agendados": 16
+  "ultimo_agendado": "2026-11-11T00:00:00+00:00",
+  "agendados": 18
  },
  "psychology_scribbles": {
   "nome": "Psychology Scribbles",
   "proximo": "2026-11-07T11:00:00+00:00",
   "ultimo_agendado": "2026-11-14T15:00:00+00:00",
-  "agendados": 20
+  "agendados": 24
  },
  "na_pele": {
   "nome": "Na Pele de Quem Faz",
