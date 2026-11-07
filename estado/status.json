@@ -3,7 +3,7 @@
   "nome": "Void Knight Echoes",
   "proximo": "2026-11-08T09:00:00+00:00",
   "ultimo_agendado": "2026-11-13T00:00:00+00:00",
-  "agendados": 11
+  "agendados": 12
  },
  "t0ld_beats": {
   "nome": "T0LD Beats",
@@ -20,14 +20,14 @@
  "psico_rabisco": {
   "nome": "Psico Rabisco",
   "proximo": "2026-11-07T11:00:00+00:00",
-  "ultimo_agendado": "2026-11-10T00:00:00+00:00",
-  "agendados": 13
+  "ultimo_agendado": "2026-11-10T15:00:00+00:00",
+  "agendados": 16
  },
  "psychology_scribbles": {
   "nome": "Psychology Scribbles",
   "proximo": "2026-11-07T11:00:00+00:00",
-  "ultimo_agendado": "2026-11-13T15:00:00+00:00",
-  "agendados": 19
+  "ultimo_agendado": "2026-11-14T15:00:00+00:00",
+  "agendados": 20
  },
  "na_pele": {
   "nome": "Na Pele de Quem Faz",
